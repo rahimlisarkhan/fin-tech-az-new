@@ -32,7 +32,7 @@ header::after {
   font-size: 12px;
 }
 .logo-text{
-  font-size: 36px;
+  font-size: 20px;
   font-weight:500;
   font-family: 'Audiowide', cursive;
   letter-spacing: .1rem;
@@ -149,7 +149,7 @@ form button.btn-primary:hover {
     1 - Hero
 ------------------------------------*/
 .hero {
-  background: url("../images/hero-bg.png") no-repeat center;
+  background: url("../images/hero-bg.jpg") no-repeat center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -295,6 +295,11 @@ form button.btn-primary:hover {
 /*-----------------------------------
     1 - Services
 ------------------------------------*/
+
+html{
+  scroll-behavior: smooth;
+}
+
 .title {
   font-weight: 700;
   text-transform: uppercase;
@@ -303,6 +308,7 @@ form button.btn-primary:hover {
 .title h6 {
   letter-spacing: 4px;
   margin-bottom: 20px;
+  font-size:23px;
 }
 
 .title h1 {
@@ -311,7 +317,9 @@ form button.btn-primary:hover {
 
 .title .title-blue {
   color: #26264b;
+  font-size: 40px !important;
 }
+
 
 .title .title-primary {
   color: #ed901f;
@@ -412,7 +420,19 @@ form button.btn-primary:hover {
   box-shadow:0 0 .2rem .2rem rgba(0, 0, 0, 0.123);
 }
 .post-thumb {
-  flex: 0 0 273px;
+  width: 270px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  padding:10px;
+  overflow: hidden;
+}
+.post-thumb img{
+  transition: all .2s;
+
+}
+.post-thumb img:hover {
+  transform: scale(1.1) !important;
 }
 
 .post-content {
