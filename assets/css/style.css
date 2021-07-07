@@ -304,7 +304,11 @@ html{
   font-weight: 700;
   text-transform: uppercase;
 }
-
+.img-size{
+  width:220px;
+  height: 220px;
+  box-shadow: .1rem solid rgba(0, 0, 0, 0.281);
+}
 .title h6 {
   letter-spacing: 4px;
   margin-bottom: 20px;
@@ -420,7 +424,7 @@ html{
   box-shadow:0 0 .2rem .2rem rgba(0, 0, 0, 0.123);
 }
 .post-thumb {
-  width: 270px;
+  width: 400px;
   height: 270px;
   display: flex;
   align-items: center;
