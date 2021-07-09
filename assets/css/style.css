@@ -3,6 +3,7 @@
     1 - Header
 ------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 header {
   background-color: #3c1f41;
   color: #fff;
@@ -24,7 +25,7 @@ header::after {
 }
 
 .nav-link {
-  font-family: "Rajdhani", sans-serif;
+ font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
 }
 
@@ -32,12 +33,16 @@ header::after {
   font-size: 12px;
 }
 .logo-text{
-  font-size: 20px;
+  font-size: 18px;
   font-weight:500;
   font-family: 'Audiowide', cursive;
   letter-spacing: .1rem;
 }
+.img-partner{
+  width:350px !important;
+  height:150px !important;
 
+}
 .tel {
   margin-right: 30px;
 }
@@ -100,7 +105,9 @@ header::after {
 .navbar-brand img {
   width: 135px;
 }
-
+.navbar-nav{
+  width:90%;
+}
 .navbar-collapse .search-form input[type="text"] {
   border: 1px solid #ced4da;
   color: #333;
@@ -521,7 +528,9 @@ html{
 .trust li {
   margin-bottom: 15px;
 }
-
+.gallery{
+  margin-top: 300px !important;
+}
 .trust .gallery img {
   width: 100%;
   -o-object-fit: cover;
@@ -533,6 +542,7 @@ html{
   display: inline-block;
   position: relative;
   z-index: 1;
+  height:200px !important;
 }
 
 .trust .gal-img i {
@@ -855,7 +865,7 @@ span {
   border-radius: 2px;
   background-color: #363636;
   font-size: 14px;
-  font-family: "Rajdhani", sans-serif;
+ font-family: 'Roboto', sans-serif;
   font-weight: 700;
   margin: 10px 10px 0 0;
 }
