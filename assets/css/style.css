@@ -529,7 +529,8 @@ html{
   margin-bottom: 15px;
 }
 .gallery{
-  margin-top: 300px !important;
+  margin-top: 150px !important;
+  margin-left: 50px !important;
 }
 .trust .gallery img {
   width: 100%;
