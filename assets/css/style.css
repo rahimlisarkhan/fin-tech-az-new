@@ -4,6 +4,11 @@
 ------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body{
+ font-family: 'Roboto', sans-serif;
+}
+
 header {
   background-color: #3c1f41;
   color: #fff;
@@ -439,6 +444,8 @@ html{
   overflow: hidden;
 }
 .post-thumb img{
+  width:200px;
+  height:200px;
   transition: all .2s;
 
 }
@@ -452,7 +459,8 @@ html{
 
 .post-content time {
   font-size: 14px;
-  color: #ccc;
+  font-weight: bold;
+  color: rgb(150, 150, 150);
 }
 
 .post-content h3 {
@@ -592,6 +600,16 @@ html{
 ------------------------------------*/
 .pricing-table {
   padding: 100px 0;
+}
+
+.single-slide h1{
+  font-size:60px;
+}
+
+.single-slide p{
+  font-size:18px;
+ font-family: 'Roboto', sans-serif;
+  background-color: rgba(255, 255, 255, 0.829) !important;
 }
 
 .single-pricing {
