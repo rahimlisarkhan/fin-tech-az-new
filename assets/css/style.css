@@ -449,6 +449,7 @@ html{
 .post-thumb img{
   width:200px;
   height:200px;
+  object-fit:cover;
   transition: all .2s;
 
 }
