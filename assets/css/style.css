@@ -453,6 +453,26 @@ html{
   transform: scale(1.1) !important;
 }
 
+.img-orga{
+  width: 400px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  padding:10px;
+  overflow: hidden;
+}
+
+
+.img-orga img {
+  width:100%;
+  height:100%;
+  transition: all .2s;
+}
+
+
+.img-orga img:hover {
+  transform: scale(1.1) !important;
+}
 .post-content {
   color: #ccc;
 }
