@@ -436,12 +436,13 @@ html{
   box-shadow:0 0 .2rem .2rem rgba(0, 0, 0, 0.123);
 }
 .post-thumb {
-  width: 400px;
+  width: 300px;
   height: 270px;
   display: flex;
   align-items: center;
   padding:10px;
   overflow: hidden;
+  margin-right: 0 !important;
 }
 .post-thumb img{
   width:200px;
@@ -475,6 +476,7 @@ html{
 }
 .post-content {
   color: #ccc;
+  width:100%;
 }
 
 .post-content time {
