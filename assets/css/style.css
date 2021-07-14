@@ -32,6 +32,8 @@ header::after {
 .nav-link {
  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
+  font-size: 14px !important;
+  padding:5px !important;
 }
 
 .contact {
