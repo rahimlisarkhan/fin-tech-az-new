@@ -2,20 +2,21 @@
     Small devices (landscape phones, 576px and up)
 ------------------------------------*/
 @media (min-width: 320px) {
-
   .img-partner {
-    width: 300px !important;
-    height:auto
+    width: 250px !important;
+    height: 130px !important;
   }
   .post-thumb,
-  .img-orga{
+  .img-orga {
     width: 100%;
   }
 }
 
 @media (min-width: 576px) {
-
-
+  .img-partner {
+    height: 150px !important;
+    width: 370px !important;
+  }
 
   .top-header {
     padding: 25px 0 15px;
