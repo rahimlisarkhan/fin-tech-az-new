@@ -6,6 +6,11 @@
     width: 250px !important;
     height: 130px !important;
   }
+
+  .partner-height {
+    width: 300px !important;
+    height: 100px !important;
+  }
   .post-thumb,
   .img-orga {
     width: 100%;
@@ -14,8 +19,13 @@
 
 @media (min-width: 576px) {
   .img-partner {
-    height: 150px !important;
-    width: 370px !important;
+    height: 140px !important;
+    width: 280px !important;
+  }
+
+  .partner-height {
+    width: 300px !important;
+    height: 120px !important;
   }
 
   .top-header {
